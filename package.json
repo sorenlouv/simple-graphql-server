@@ -1,0 +1,37 @@
+{
+  "name": "unnamed_launchpad_project",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"./src/**/*.js\" --write",
+    "lint": "eslint ./src"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "apollo-cache-control": "^0.0.9",
+    "apollo-engine": "^1.0.4-evans.0",
+    "apollo-server-express": "^1.2.0",
+    "apollo-tracing": "^0.1.3",
+    "body-parser": "^1.18.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "graphql-extensions": "^0.0.8",
+    "graphql-tools": "^2.15.0",
+    "lodash": "^4.17.5",
+    "prettier": "^1.11.1",
+    "webtask-tools": "^3.2.0"
+  }
+}
